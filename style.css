@@ -1,0 +1,343 @@
+.box1{
+    display: flex;
+}
+p{
+    color: #0da740;
+}
+h1{
+    color: aquamarine;
+}
+div {
+  background-color: rgb(14, 10, 230); /* 背景色を薄い灰色にする */
+}
+
+.box {
+  background-color: rgb(211, 178, 31); /* 背景色をオレンジにする（RGB値） */
+}
+.fx{
+    display: flex;
+    gap: 2rem;
+}
+.parent-box {
+  display: flex; /* これだけで中のアイテムが横に並びます */
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main-content {
+  color: #04c253;
+  background-color: #d3d607;
+  padding: 20px;
+  border: 1px solid #bd0d88;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf5;
+  color: #000000;
+}
+
+header {
+  background-color: #0077c0;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  border-left: 5px solid #0077c0;
+  padding-left: 0.5rem;
+  color: #0077c0;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+img {
+  margin-top: 1rem;
+  max-width: 50%;
+  height: auto;
+}
+
+footer {
+  background-color: #0077c0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.ic-cards {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  width: 120px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  font-size: 14px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 8px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #555;
+}
+.sightseeing {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.spot-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.spot {
+  width: 280px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 15px;
+}
+
+.spot img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.spot h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.spot p {
+  font-size: 14px;
+  color: #333;
+}
+.sightseeing {
+  padding: 2rem;
+  background-color: #f8f8ff;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center; /* セクション内テキストを中央揃え */
+}
+
+.spot-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center; /* 中央に配置 */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.spot {
+  width: calc(45% - 1rem);
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: left; /* 各カード内のテキストは左揃えのまま自然に */
+}
+
+.spot:hover {
+  transform: translateY(-5px);
+}
+
+.spot h3 {
+  font-size: 1.2rem;
+  color: #004c99;
+  margin-bottom: 0.5rem;
+}
+
+.spot p {
+  font-size: 0.95rem;
+  color: #333333;
+  line-height: 1.5;
+}
+/* フェードイン */
+.fade-in {
+  animation: fadeIn 1s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ホバーエフェクト */
+ul li {
+  transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #f0f0f0;
+}
+
+/* 背景アニメーション */
+body {
+  animation: bgColorChange 10s infinite alternate;
+}
+
+@keyframes bgColorChange {
+  0% { background-color: #09D4F5; }
+  25% { background-color: #CE05FB; }
+  50% { background-color: #4F589C; }
+  75% { background-color: #E97678; }
+  100% { background-color: #0DBD0B; }
+}
+
+/* 見出しの色をカラフルにする */
+h1 { color: #524CE8; } /* HTML5 オレンジ */
+h2 { color: #8C8FF7; } /* CSS3 青 */
+h3 { color: #69A660; } /* JavaScript 黄色 */
+
+/* その他既存のスタイル */
+h1, h3 { margin-bottom: 20px; }
+.vocational { margin-top: 30px; }
+.vocational-container { padding: 20px; border: 1px solid #ccc; }
+ul { list-style-type: disc; padding-left: 20px; }
+li { margin-bottom: 10px; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #ffff00;
+    color: #9400d3;
+}
+
+header {
+    background: #4169e1;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav button {
+    background: #ff00ff;
+    color: #00ffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header nav button:hover {
+    background: #777;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.page {
+    display: none;
+}
+
+footer {
+    background: #008d8d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	margin-top: 100px;
+}
+
+.banner, .detail-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.car-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car-item {
+    background: #ffc0cb;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+form button {
+    background: #555;
+    color: #ffffe0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #777;
+}
+
+.detail-image ul li{
+	margin-bottom: 50px;
+}
+   
